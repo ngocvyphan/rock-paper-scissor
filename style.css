@@ -1,0 +1,86 @@
+.game{
+    height: 350px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border: 4px solid rgb(1, 1, 28);
+    
+}
+
+.welcome{
+    font-size: 3rem;
+}
+
+.title{
+    font-size: 2rem;
+    padding: 5px; 
+    text-decoration: underline; 
+}
+
+.score-row{
+    background-color: rgb(255, 255, 153);
+}
+
+.score-column{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.score-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.action{
+    
+}
+
+
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options button{
+    padding: 0.5rem;
+    color: black;
+    border: 2px solid rgb(1, 1, 28);
+    border-radius: 25%;
+    font-size: 20px;
+    width: 100px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+#playerDisplay{
+    text-align: center;
+}
+
+#computerDisplay{
+    text-align: center;
+}
+
+
+#resultDisplay{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+
+.greenText, #playerScoreDisplay{
+    color: green;
+}
+
+.redText, #computerScoreDisplay{
+    color: red;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Rock Paper Scissor</title>
+        <link rel ="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <section class="game">
+            <!--Title-->
+            <div class="welcome">Welcome to</div>
+            <div class="title">Rock Paper Scissor game</div>
+
+            <br>
+            <!--Display score of player and gamer-->
+            <div class="score-row">
+                <div class="score-column">
+                    <h2>Player</h2>
+                    <p id="playerScoreDisplay">0</p>
+                    <div id="playerDisplay">Player chose: </div>
+                </div>
+
+                <div class="score-column">
+                    <h2>Computer</h2>
+                    <p id="computerScoreDisplay">0</p>
+                    <div id="computerDisplay">Computer chose: </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="action">
+            
+
+            
+
+            <!--Option avaiable to player to play game-->
+            <div class="options">
+                <button onclick = "playGame('rock')">Rock</button>
+                <button onclick = "playGame('paper')">Paper</button>
+                <button onclick = "playGame('scissors')">Scissors</button>
+            </div>
+
+            
+            
+            </div>
+
+
+            <br>
+            <!--Final result of the game-->
+            <div id="resultDisplay"></div>
+
+            
+        </section>
+        
+
+        <script src= "javascript.js"></script>
+    </body>
+</html>
